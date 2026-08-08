@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NumberOfCareerChanges__c</fullName>
+    <description>Number of times the learner has changed jobs. / 転職の回数。</description>
+    <inlineHelpText>Enter the number of job changes. / 転職回数を入力してください。</inlineHelpText>
+    <label>Number of Career Changes</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

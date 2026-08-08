@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>YearsOfProfessionalExperience__c</fullName>
+    <description>Total years of professional work experience. / 正社員・契約・派遣・嘱託等の経験総年数。</description>
+    <inlineHelpText>Enter total years of work experience. / 通算の職務経験年数を入力してください。</inlineHelpText>
+    <label>Years of Professional Experience</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

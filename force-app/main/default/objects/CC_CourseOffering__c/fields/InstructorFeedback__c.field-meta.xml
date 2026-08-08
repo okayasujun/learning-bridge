@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InstructorFeedback__c</fullName>
+    <description>Feedback from the instructor after delivery. / 講師からの所感・フィードバック。</description>
+    <inlineHelpText>Record the instructor's comments after the course. / 実施後の講師コメントを記載してください。</inlineHelpText>
+    <label>Instructor Feedback</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

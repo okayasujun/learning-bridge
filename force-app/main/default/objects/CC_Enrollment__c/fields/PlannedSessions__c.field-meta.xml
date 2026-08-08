@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PlannedSessions__c</fullName>
+    <description>Total sessions planned, from the related Course Offering. / 開講オブジェクトに設定された全予定回数を参照。</description>
+    <inlineHelpText>自動計算のため入力不要（Automatically calculated; no input needed）。</inlineHelpText>
+    <label>Planned Sessions</label>
+    <formula>CourseOffering__r.TotalSessions__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

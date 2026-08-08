@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SessionNumber__c</fullName>
+    <description>The sequence number of this session. / 第何回か。</description>
+    <inlineHelpText>Enter the session sequence number. / 第何回かを入力してください。</inlineHelpText>
+    <label>Session Number</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SessionDate__c</fullName>
+    <description>The date this session was held. / この回の実施日。</description>
+    <inlineHelpText>Enter the date this session took place. / 実施日を入力してください。</inlineHelpText>
+    <label>Session Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
