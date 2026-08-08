@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Specialties__c</fullName>
+    <description>Areas of expertise this instructor can teach. / この講師が対応できる得意分野。</description>
+    <inlineHelpText>Select all applicable specialty areas. / 該当する得意分野をすべて選択してください。</inlineHelpText>
+    <label>Specialties</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>Business Mindset</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>Work Basics</label>
+            </value>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>Team Building</label>
+            </value>
+            <value>
+                <fullName>06</fullName>
+                <default>false</default>
+                <label>Thinking Skills</label>
+            </value>
+            <value>
+                <fullName>07</fullName>
+                <default>false</default>
+                <label>Subordinate Development</label>
+            </value>
+            <value>
+                <fullName>08</fullName>
+                <default>false</default>
+                <label>Customer Service / Complaint Handling</label>
+            </value>
+            <value>
+                <fullName>09</fullName>
+                <default>false</default>
+                <label>Speaking Skills</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Writing Skills</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>Career Design</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>Process Improvement</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>Risk Management</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>Evaluation / Recruitment</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>Marketing / Planning</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>DX / IT / Office Skills</label>
+            </value>
+            <value>
+                <fullName>17</fullName>
+                <default>false</default>
+                <label>Global / Diversity</label>
+            </value>
+            <value>
+                <fullName>18</fullName>
+                <default>false</default>
+                <label>Healthcare</label>
+            </value>
+            <value>
+                <fullName>19</fullName>
+                <default>false</default>
+                <label>Statistics / RPA / AI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
