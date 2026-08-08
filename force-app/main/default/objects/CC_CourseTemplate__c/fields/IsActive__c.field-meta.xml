@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsActive__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether this content is currently offered. / 現在有効なコンテンツかどうか。</description>
+    <inlineHelpText>Check if this content is currently available for scheduling. / 現在開講可能な状態であればチェックしてください。</inlineHelpText>
+    <label>Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

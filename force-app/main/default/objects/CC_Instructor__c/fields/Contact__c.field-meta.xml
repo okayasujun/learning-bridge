@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact__c</fullName>
+    <deleteConstraint>Cascade</deleteConstraint>
+    <description>The Contact (person) this instructor extension belongs to. / この講師拡張レコードが紐づく取引先責任者。</description>
+    <inlineHelpText>Select the Contact who serves as this instructor. Each Contact can have at most one Instructor record. / 講師として登録する取引先責任者を選択してください。1人につき1件までです。</inlineHelpText>
+    <label>Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Instructors</relationshipLabel>
+    <relationshipName>Instructors</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
