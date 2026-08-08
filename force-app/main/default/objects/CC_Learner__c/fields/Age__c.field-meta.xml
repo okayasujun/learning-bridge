@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Age__c</fullName>
+    <description>Age calculated automatically from date of birth. / 生年月日から自動計算される年齢。</description>
+    <inlineHelpText>自動計算のため入力不要（Automatically calculated; no input needed）。</inlineHelpText>
+    <label>Age</label>
+    <formula>FLOOR((TODAY() - Birthday__c) / 365.2425)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Opportunity that led to this offering. / この開講のもとになった商談。（フェーズ1で新設）</description>
+    <inlineHelpText>Select the Opportunity this offering fulfills, if applicable. / 該当する商談があれば選択してください。</inlineHelpText>
+    <label>Opportunity</label>
+    <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Course Offerings</relationshipLabel>
+    <relationshipName>Course_Offerings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
