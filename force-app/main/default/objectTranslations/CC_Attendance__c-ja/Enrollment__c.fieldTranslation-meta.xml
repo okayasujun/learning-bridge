@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the related enrollment. / 対象の受講登録を選択してください。 --></help>
+    <label>受講登録</label>
+    <name>Enrollment__c</name>
+    <relationshipLabel>出席記録</relationshipLabel>
+</CustomFieldTranslation>

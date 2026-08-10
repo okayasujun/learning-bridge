@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Record the instructor&apos;s comments after the course. / 実施後の講師コメントを記載してください。 --></help>
+    <label>講師所感</label>
+    <name>InstructorFeedback__c</name>
+</CustomFieldTranslation>

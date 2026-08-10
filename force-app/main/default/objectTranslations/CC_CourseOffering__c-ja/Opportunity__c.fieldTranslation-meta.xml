@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the Opportunity this offering fulfills, if applicable. / 該当する商談があれば選択してください。 --></help>
+    <label>商談</label>
+    <name>Opportunity__c</name>
+    <relationshipLabel>開講</relationshipLabel>
+</CustomFieldTranslation>

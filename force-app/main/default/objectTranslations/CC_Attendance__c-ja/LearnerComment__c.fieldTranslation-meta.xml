@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the learner&apos;s comment for this session, if any. / この回についての受講者コメントがあれば記載してください。 --></help>
+    <label>受講者所感</label>
+    <name>LearnerComment__c</name>
+</CustomFieldTranslation>

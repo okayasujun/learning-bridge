@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select all applicable specialty areas. / 該当する得意分野をすべて選択してください。 --></help>
+    <label>得意分野</label>
+    <name>Specialties__c</name>
+    <picklistValues>
+        <masterLabel>Business Mindset</masterLabel>
+        <translation>ビジネスマインド</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Career Design</masterLabel>
+        <translation>キャリアデザイン</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Communication</masterLabel>
+        <translation>コミュニケーション</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Service / Complaint Handling</masterLabel>
+        <translation>顧客対応・クレーム対応</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DX / IT / Office Skills</masterLabel>
+        <translation>DX・IT・オフィスツール</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evaluation / Recruitment</masterLabel>
+        <translation>評価・採用</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global / Diversity</masterLabel>
+        <translation>グローバル・ダイバーシティ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Healthcare</masterLabel>
+        <translation>ヘルスケア</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management</masterLabel>
+        <translation>マネジメント</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing / Planning</masterLabel>
+        <translation>マーケティング・企画</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Process Improvement</masterLabel>
+        <translation>業務改善</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Risk Management</masterLabel>
+        <translation>リスクマネジメント</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Speaking Skills</masterLabel>
+        <translation>話し方</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Statistics / RPA / AI</masterLabel>
+        <translation>統計・RPA・AI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Subordinate Development</masterLabel>
+        <translation>部下育成</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Team Building</masterLabel>
+        <translation>チームビルディング</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Thinking Skills</masterLabel>
+        <translation>思考力</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Work Basics</masterLabel>
+        <translation>仕事の基本</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Writing Skills</masterLabel>
+        <translation>文章力</translation>
+    </picklistValues>
+</CustomFieldTranslation>
