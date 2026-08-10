@@ -15,6 +15,9 @@
     <tabs>standard-home</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Case</tabs>
     <tabs>CC_Instructor__c</tabs>
     <tabs>CC_Learner__c</tabs>
     <tabs>CC_CourseTemplate__c</tabs>
@@ -49,10 +52,19 @@
             <tab>standard-Account</tab>
         </mappings>
         <mappings>
+            <tab>standard-Case</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Contact</tab>
         </mappings>
         <mappings>
             <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Lead</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Opportunity</tab>
         </mappings>
     </workspaceConfig>
 </CustomApplication>
