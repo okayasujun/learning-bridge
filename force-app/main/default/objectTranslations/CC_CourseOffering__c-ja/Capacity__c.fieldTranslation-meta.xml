@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the maximum capacity. / 定員を入力してください。 --></help>
+    <label>定員</label>
+    <name>Capacity__c</name>
+</CustomFieldTranslation>

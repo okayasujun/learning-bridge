@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the parent course offering. / 親となる開講を選択してください。 --></help>
+    <label>開講</label>
+    <name>CourseOffering__c</name>
+    <relationshipLabel>開催回</relationshipLabel>
+</CustomFieldTranslation>

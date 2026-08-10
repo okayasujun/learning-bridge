@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select all applicable career orientations. / 該当するキャリア志向をすべて選択してください。 --></help>
+    <label>キャリア志向</label>
+    <name>CareerOrientations__c</name>
+    <picklistValues>
+        <masterLabel>Creative</masterLabel>
+        <translation>クリエイティブ志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Entrepreneurship</masterLabel>
+        <translation>起業志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freedom</masterLabel>
+        <translation>自由重視</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Global</masterLabel>
+        <translation>グローバル志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Growth</masterLabel>
+        <translation>成長志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Management-Oriented</masterLabel>
+        <translation>マネジメント志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Professional</masterLabel>
+        <translation>専門職志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project-Oriented</masterLabel>
+        <translation>プロジェクト志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Promotion</masterLabel>
+        <translation>昇進志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Social Contribution</masterLabel>
+        <translation>社会貢献志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Stability</masterLabel>
+        <translation>安定志向</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Undecided</masterLabel>
+        <translation>未定</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Work-Life Balance</masterLabel>
+        <translation>ワークライフバランス重視</translation>
+    </picklistValues>
+</CustomFieldTranslation>

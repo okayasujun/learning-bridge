@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Enter the date of enrollment. / 登録日を入力してください。 --></help>
+    <label>受講登録日</label>
+    <name>EnrollmentDate__c</name>
+</CustomFieldTranslation>

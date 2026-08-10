@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the instructor in charge of this content. / 担当講師を選択してください。 --></help>
+    <label>講師</label>
+    <name>Instructor__c</name>
+    <relationshipLabel>研修コンテンツ</relationshipLabel>
+</CustomFieldTranslation>
