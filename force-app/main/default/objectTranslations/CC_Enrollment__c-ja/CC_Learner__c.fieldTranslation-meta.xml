@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select the learner. / 受講者を選択してください。 --></help>
+    <label>受講者</label>
+    <name>CC_Learner__c</name>
+    <relationshipLabel>受講登録</relationshipLabel>
+</CustomFieldTranslation>

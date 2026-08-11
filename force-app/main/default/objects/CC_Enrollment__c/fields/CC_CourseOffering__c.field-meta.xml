@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_CourseOffering__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The course offering this enrollment is for. / 対象となる開講。</description>
+    <inlineHelpText>Select the course offering. / 対象の開講を選択してください。</inlineHelpText>
+    <label>Course Offering</label>
+    <referenceTo>CC_CourseOffering__c</referenceTo>
+    <relationshipLabel>Enrollments</relationshipLabel>
+    <relationshipName>Enrollments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

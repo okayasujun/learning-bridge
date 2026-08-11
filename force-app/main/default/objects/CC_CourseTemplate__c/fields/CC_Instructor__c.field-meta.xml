@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Instructor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The instructor responsible for this content. / この研修コンテンツの責任講師。</description>
+    <inlineHelpText>Select the instructor in charge of this content. / 担当講師を選択してください。</inlineHelpText>
+    <label>Instructor</label>
+    <referenceTo>CC_Instructor__c</referenceTo>
+    <relationshipLabel>Course Templates</relationshipLabel>
+    <relationshipName>Course_Templates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>InstructorComments__c</fullName>
-    <description>The instructor's overall evaluation/comments. / 講師からの評価・総評。</description>
-    <inlineHelpText>Record the instructor's overall comments. / 講師からのコメントを記載してください。</inlineHelpText>
+    <description>The instructor&apos;s overall evaluation/comments. / 講師からの評価・総評。</description>
+    <inlineHelpText>Record the instructor&apos;s overall comments. / 講師からのコメントを記載してください。</inlineHelpText>
     <label>Instructor Comments</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>
