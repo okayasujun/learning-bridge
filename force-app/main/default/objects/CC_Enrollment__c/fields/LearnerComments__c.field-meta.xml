@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LearnerComments__c</fullName>
-    <description>The learner's overall reflection/comments. / 受講者本人の振り返りや総評。</description>
-    <inlineHelpText>Record the learner's overall comments. / 受講者本人のコメントを記載してください。</inlineHelpText>
+    <description>The learner&apos;s overall reflection/comments. / 受講者本人の振り返りや総評。</description>
+    <inlineHelpText>Record the learner&apos;s overall comments. / 受講者本人のコメントを記載してください。</inlineHelpText>
     <label>Learner Comments</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

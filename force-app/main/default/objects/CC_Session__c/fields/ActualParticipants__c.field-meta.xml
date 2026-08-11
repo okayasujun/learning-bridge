@@ -9,7 +9,7 @@
         <operation>equals</operation>
         <value>True</value>
     </summaryFilterItems>
-    <summaryForeignKey>CC_Attendance__c.Session__c</summaryForeignKey>
+    <summaryForeignKey>CC_Attendance__c.CC_Session__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>
     <trackTrending>false</trackTrending>
     <type>Summary</type>

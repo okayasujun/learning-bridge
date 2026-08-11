@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Capacity__c</fullName>
     <description>Maximum number of learners for this offering. / 受講者の最大人数。</description>
+    <externalId>false</externalId>
     <inlineHelpText>Enter the maximum capacity. / 定員を入力してください。</inlineHelpText>
     <label>Capacity</label>
     <precision>3</precision>
@@ -9,4 +10,5 @@
     <scale>0</scale>
     <trackTrending>false</trackTrending>
     <type>Number</type>
+    <unique>false</unique>
 </CustomField>

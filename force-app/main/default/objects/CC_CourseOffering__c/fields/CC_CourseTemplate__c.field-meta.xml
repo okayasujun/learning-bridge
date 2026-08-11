@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_CourseTemplate__c</fullName>
+    <description>The course template this offering is based on. / この開講のもとになる研修コンテンツ。</description>
+    <inlineHelpText>Select the course template being delivered. / 実施する研修コンテンツを選択してください。</inlineHelpText>
+    <label>Course Template</label>
+    <referenceTo>CC_CourseTemplate__c</referenceTo>
+    <relationshipLabel>Course Offerings</relationshipLabel>
+    <relationshipName>Course_Offerings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
