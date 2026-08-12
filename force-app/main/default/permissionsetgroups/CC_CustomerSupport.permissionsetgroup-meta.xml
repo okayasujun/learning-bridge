@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Customer Support department. / カスタマーサポート部向け権限セットグループ。</description>
+    <label>CC_CustomerSupport</label>
+    <status>Updated</status>
+</PermissionSetGroup>

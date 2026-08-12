@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Training Operations department (course scheduling, learner/enrollment/attendance management). / 研修事業部向け権限セットグループ。</description>
+    <label>CC_TrainingOperations</label>
+    <status>Updated</status>
+</PermissionSetGroup>
