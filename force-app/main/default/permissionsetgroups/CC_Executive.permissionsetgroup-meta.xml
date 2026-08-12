@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Executive (CEO) — bundles all 5 department access permission sets for org-wide visibility. / 代表取締役向け権限セットグループ。5部署分の権限セットをすべて束ね、全体を見渡せるようにする。</description>
+    <label>CC_Executive</label>
+    <status>Updated</status>
+</PermissionSetGroup>
