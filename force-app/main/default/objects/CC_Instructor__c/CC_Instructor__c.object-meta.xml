@@ -159,7 +159,11 @@
         <label>Instructor Number</label>
         <type>AutoNumber</type>
     </nameField>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <lookupDialogsAdditionalFields>CC_Instructor__c.InstructorName__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CC_Instructor__c.InstructorName__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CC_Instructor__c.InstructorName__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

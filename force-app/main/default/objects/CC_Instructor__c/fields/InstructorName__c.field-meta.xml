@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InstructorName__c</fullName>
+    <description>Formula display of the related Contact's name, so the instructor is searchable/recognizable by name (Name field itself is an auto-number). / 関連する取引先責任者の氏名を表示する数式項目。Name項目は自動採番のため、氏名で検索・識別できるようにするため。</description>
+    <formula>Contact__r.LastName &amp; &quot; &quot; &amp; Contact__r.FirstName</formula>
+    <formulaTreatBlanksAs>BlankAsBlank</formulaTreatBlanksAs>
+    <label>Instructor Name</label>
+    <required>false</required>
+    <type>Text</type>
+</CustomField>
