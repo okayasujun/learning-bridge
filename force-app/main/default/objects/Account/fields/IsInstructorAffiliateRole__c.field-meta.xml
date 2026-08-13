@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsInstructorAffiliateRole__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Sharing-rule helper field mirroring whether AccountRole__c includes &quot;Instructor Affiliation&quot; (02). Not the source of truth. / 共有ルール用の補助項目。AccountRole__cに「Instructor Affiliation（02）」が含まれるかどうかを反映する（正はAccountRole__c）。</description>
+    <inlineHelpText>Auto-sync is not implemented yet (as of 2026-08, task 020) — when AccountRole__c is changed, this checkbox must be updated manually to match. Planned to be automated later via an Apex Trigger. / 自動連動は未実装（2026年8月・020対応時点）。AccountRole__cを変更する際は、この項目も手動で一致させてください。将来的にApex Triggerでの自動化を検討予定。</inlineHelpText>
+    <label>Is Instructor Affiliate Role</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
