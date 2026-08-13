@@ -102,12 +102,20 @@
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
             </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ScenarioMemo__c</field>
             </layoutItems>
         </layoutColumns>
-        <style>TwoColumnsTopToBottom</style>
+        <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -327,6 +335,13 @@
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedOpportunityHistoryList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>CC_CourseTemplate__c</fields>
+        <fields>StartDate__c</fields>
+        <fields>Rating__c</fields>
+        <relatedList>CC_CourseOffering__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
