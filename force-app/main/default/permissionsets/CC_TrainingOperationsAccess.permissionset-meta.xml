@@ -317,4 +317,32 @@
         <field>CC_CourseOffering__c.InstructorFeedback__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <tabSettings>
+        <tab>CC_Instructor__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_CourseTemplate__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_CourseOffering__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_Learner__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_Enrollment__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_Session__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_Attendance__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

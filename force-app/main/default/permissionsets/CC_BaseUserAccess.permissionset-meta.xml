@@ -6,6 +6,10 @@
     </applicationVisibilities>
     <hasActivationRequired>false</hasActivationRequired>
     <label>CC_Base User Access</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.AccountNumber</field>
@@ -379,6 +383,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>CC_Instructor__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CC_Instructor__c.InstructorName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

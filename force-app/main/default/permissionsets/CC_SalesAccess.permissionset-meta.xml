@@ -345,4 +345,12 @@
         <field>Opportunity.Amount</field>
         <readable>true</readable>
     </fieldPermissions>
+    <tabSettings>
+        <tab>CC_CourseTemplate__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>CC_CourseOffering__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
