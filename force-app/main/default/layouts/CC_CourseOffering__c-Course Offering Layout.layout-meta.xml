@@ -71,12 +71,20 @@
                 <behavior>Readonly</behavior>
                 <field>LastModifiedById</field>
             </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsTopToBottom</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>false</customLabel>
+        <detailHeading>false</detailHeading>
+        <editHeading>false</editHeading>
+        <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ScenarioMemo__c</field>
             </layoutItems>
         </layoutColumns>
-        <style>TwoColumnsTopToBottom</style>
+        <style>OneColumn</style>
     </layoutSections>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -90,6 +98,19 @@
     <miniLayout>
         <fields>CC_CourseTemplate__c</fields>
     </miniLayout>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>Status__c</fields>
+        <fields>EnrollmentDate__c</fields>
+        <relatedList>CC_Enrollment__c.CC_CourseOffering__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
+        <fields>SessionDate__c</fields>
+        <fields>PlannedParticipants__c</fields>
+        <fields>ActualParticipants__c</fields>
+        <relatedList>CC_Session__c.CC_CourseOffering__c</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
