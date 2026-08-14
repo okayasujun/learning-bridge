@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Check if this record is part of a business scenario; if checked, also fill in Scenario Memo. / 業務シナリオを構成するレコードの場合はチェックし、あわせてシナリオメモも記入してください。 --></help>
+    <label>シナリオレコード</label>
+    <name>IsScenarioRecord__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsScenarioRecord__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whether this record is part of a fictional business scenario (and therefore requires a ScenarioMemo__c entry). / このレコードが架空の業務シナリオを構成するデータかどうか(該当する場合はScenarioMemo__cへの記録も必須)。</description>
+    <inlineHelpText>Check if this record is part of a business scenario; if checked, also fill in Scenario Memo. / 業務シナリオを構成するレコードの場合はチェックし、あわせてシナリオメモも記入してください。</inlineHelpText>
+    <label>Scenario Record</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

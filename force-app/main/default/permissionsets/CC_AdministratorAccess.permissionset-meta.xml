@@ -11,16 +11,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.IsTestRecord__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.ScenarioMemo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.IsCustomerRole__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -31,37 +21,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.Age__c</field>
+        <field>Account.IsScenarioRecord__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.Birthday__c</field>
+        <field>Account.ScenarioMemo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.CareerOrientations__c</field>
+        <field>CC_Attendance__c.Attended__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.IsTestRecord__c</field>
+        <field>CC_Attendance__c.IsScenarioRecord__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.NumberOfCareerChanges__c</field>
+        <field>CC_Attendance__c.LearnerComment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.ScenarioMemo__c</field>
+        <field>CC_Attendance__c.ScenarioMemo__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Learner__c.YearsOfProfessionalExperience__c</field>
+        <field>CC_CourseOffering__c.InstructorFeedback__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_CourseOffering__c.Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -86,7 +81,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Enrollment__c.IsTestRecord__c</field>
+        <field>CC_Enrollment__c.IsScenarioRecord__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -111,7 +106,42 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CC_Session__c.IsTestRecord__c</field>
+        <field>CC_Learner__c.Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.Birthday__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.CareerOrientations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.IsScenarioRecord__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.NumberOfCareerChanges__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.ScenarioMemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Learner__c.YearsOfProfessionalExperience__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CC_Session__c.IsScenarioRecord__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -142,36 +172,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CC_Session__c.Summary__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_Attendance__c.Attended__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_Attendance__c.IsTestRecord__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_Attendance__c.LearnerComment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_Attendance__c.ScenarioMemo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_CourseOffering__c.InstructorFeedback__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CC_CourseOffering__c.Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
@@ -318,10 +318,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>DelegatedTwoFactor</name>
     </userPermissions>
     <userPermissions>
@@ -371,6 +367,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSharing</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
