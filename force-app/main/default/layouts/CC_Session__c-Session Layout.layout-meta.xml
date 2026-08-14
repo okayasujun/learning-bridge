@@ -55,7 +55,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsTestRecord__c</field>
+                <field>IsScenarioRecord__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

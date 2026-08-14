@@ -4,5 +4,12 @@
         <plural>false</plural>
         <value>研修コンテンツ</value>
     </caseValues>
+    <layouts>
+        <layout>Course Template Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>タイトル</nameFieldLabel>
 </CustomObjectTranslation>
